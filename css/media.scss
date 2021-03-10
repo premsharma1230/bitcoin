@@ -1,0 +1,630 @@
+@media only screen and (max-width: 1300px){
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    main header nav .right_item {
+        width: 70%;
+    }
+    main header nav .right_item ul li a {
+        font-size: 1em;
+        padding: .6rem 1rem;
+    }
+}
+@media only screen and (max-width: 1024px){
+   
+.main-bar.activefile {
+    top: 30px!important;
+}
+.main-bar {
+    right: 40px;
+    top: 27px;
+    display: block!important;
+    cursor: pointer;
+    position: absolute;
+}
+.main-bar div {
+    width: 35px;
+    height: 4px;
+    margin: 6px 0;
+    background-image: linear-gradient(45deg, #ffffff, #faf9fc);
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+.activefile .a {
+    -webkit-transform: rotateZ(43deg);
+    transform: rotateZ(43deg);
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+.activefile .b {
+    opacity: 0;
+    //display: none;
+}
+.activefile .c {
+    -webkit-transform: rotateZ(-46deg);
+    transform: rotateZ(-46deg);
+    top: 0px;
+    position: absolute;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    margin: 6px 0 0 0px;
+}
+.myHeader {
+    width: 100% !important;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 76px;
+    overflow-x: hidden;
+    display: none;
+    left: 0px;
+    background: linear-gradient(150deg, #1f4e5f 15%, #004b68 70%, #2f5b6b 94%);
+    text-align: center;
+    border-bottom: 3px solid #fcfcfca8;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 1rem 0 0;
+    ul{
+        display: block!important;
+        li{
+            padding: 1rem 0;
+            border-bottom: 1px solid #eeeeee29;
+            &:last-child{
+                border-bottom: inherit;
+            }
+            &:nth-child(1){
+                border-top: 1px solid #eeeeee29;
+            }
+        }
+    }
+}
+ .sticky{
+    padding: .6rem 0;
+     .activefile{top:30px}
+     .main-bar{
+          top: 20px;
+          div{background: #000000;}
+     }
+     .myHeader{
+         padding: 0 0 0;
+         ul{li{a{color:$white!important;}}}
+     }
+ }
+ main .Banner_wrapper .banner_content .Right_cnt01 figure img{
+    max-width: 80%;
+ }
+ main .Banner_wrapper .banner_content .Left_cnt01 blockquote h1 {
+    font-size: 2em;
+    line-height: 1.5;
+}
+main .Graph_wrapper .Graph_content .G_cnt_commn h2 {
+    font-size: 2em;
+    line-height: 1.4;
+}
+main .Graph_wrapper .Graph_content .G_cnt_commn a {
+    padding: 1.2rem 4rem;
+    border-radius: 5px;
+    margin: .6rem 0;
+    font-size: 1.1rem;
+}
+main .portfolio_wrapper .Port_Content .port_heading h2 {
+    font-size: 2rem;
+    line-height: 1.4;
+}
+main .portfolio_wrapper .Port_Content .port-child-wrp .port_cmn03 ul li h2 {
+    font-size: 1.4rem;  
+}
+main .Trade_Wrappper .Trade_Content_wrp .trade_cmn05 h2 {
+    font-size: 2em;
+}
+main .BT-top a {
+    padding: .9rem 1.2rem;
+}
+.user_Wrp {
+    padding: 0 3rem 0 0;
+    margin-right: 5px;
+}
+
+}
+
+
+@media only screen and (max-width: 992px){
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote {
+        padding: 1rem 1rem 2rem;
+    }
+    main .Banner_wrapper .banner_content .Right_cnt01 figure img {
+        max-width: 88%;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote p {
+        font-size: 1rem;
+        padding: .7rem 0 2rem;
+        line-height: 1.5;
+    }
+    main .Bit-Price_wrapper {
+        margin: 0rem 0 1rem;
+        padding: 4rem 0 0;
+    }
+    main .Graph_wrapper .Graph_content .G_cnt_commn a {
+        padding: 1.1rem 3.5rem;
+        margin: .6rem 0;
+        font-size: 1rem;
+    }
+    main .portfolio_wrapper .Port_Content .port-child-wrp .port_cmn03 ul li p {
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+    main .portfolio_wrapper .Port_Content .port-child-wrp .port_cmn03 ul li h2 {
+        font-size: 1.2em;
+    }
+    main .portfolio_wrapper .Port_Content .port_heading {
+        padding: 2rem .5rem 3rem;
+    }
+    main .platform_wrapper .platform-child-wrp ul .secure_cmn04 {
+        width: 45%;
+        padding: 0rem 0 2rem;
+        margin: .5rem .5rem;
+    }
+    main .portfolio_wrapper .Port_Content .port_heading h2 {
+        font-size: 1.7em;
+        line-height: 1.4;
+    }
+    main .portfolio_wrapper .Port_Content .port_heading p {
+        font-size: 1.1rem;
+    }
+    main footer .footer_content .Ft_cmn06 .ft_heading h2 {
+        font-size: 1.4rem;
+    }
+    main footer .footer_content .Ft_cmn06 {
+        width: 30%;
+        margin: .5rem .4rem;
+    }
+    .Admin_wrapper .Admin_table .Table_content {
+        width: 100%;
+        padding: 7rem 0 0;
+    }
+    .Admin_wrapper .Admin_table .Table_content .child_Table {
+        padding: 2rem;
+        border-radius: 5px;
+    }
+    .flx{
+        justify-content: space-around!important;
+    }
+    #Userdashboard_wrapper .User_main_Wrapper .User_content {   
+        padding: 6rem 0 2rem;
+        width: 100%;
+    }
+    #Userdashboard_wrapper .User_main_Wrapper .User_content {
+        padding: 5rem 0 2rem;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .Login_wrp .user_options-unregistered {
+        width: 50%;
+        // padding: 2rem 45px 2rem;
+        padding: 12rem  15px 12rem;
+        // transform: translateY(7rem);
+        text-align: center;
+    }
+    .Login_wrp .user_options-registered {
+        // padding: 15rem 45px 2rem!important;
+        padding: 12rem  15px 12rem!important;
+        text-align: center;
+        
+    }
+    .Login_wrp .user_options-container {
+        position: relative;
+        width: 95%;
+    }
+    .Login_wrp .user_unregistered-text, .Login_wrp .user_registered-text {
+        font-size: .80rem;
+        line-height: 1.4em;
+    }
+    .Login_wrp .user_registered-title, .Login_wrp .user_unregistered-title {
+        margin-bottom: 15px;
+        font-size: 1.4rem;
+        line-height: 1em;
+    }
+    .Login_wrp .user_registered-login, .Login_wrp .user_unregistered-signup {
+        padding: .9rem 1.2rem;
+        font-size: 13px;
+        line-height: 1em;
+        letter-spacing: 0.2rem;
+    }
+    main .Banner_wrapper .banner_content {
+        // flex-direction: column-reverse;
+    }
+    main .Banner_wrapper .banner_content .bnr_cmn02 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    main .Bit-Price_wrapper .Bit-content .child_cnt2 {
+        width: 100%;
+    }
+    main .Bit-Price_wrapper .Bit-content .child_cnt2 table {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    main .Graph_wrapper .Graph_content .G_cnt_commn h2 {
+        font-size: 1.4em;
+        line-height: 1.4;
+    }
+    main .Graph_wrapper .Graph_content .G_cnt_commn p {
+        font-size: 1em;
+        padding: 1.1rem 0;
+        line-height: 1.5;
+    }
+    main .Graph_wrapper .Graph_content .G_cnt_commn a {
+        padding: 1rem 3rem;
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+    main .portfolio_wrapper .Port_Content .port_heading h2 {
+        font-size: 1.5em;
+        line-height: 1.4;
+    }   
+    main .portfolio_wrapper .Port_Content .port_heading p {
+        font-size: 1.1em;
+    }
+    main .portfolio_wrapper .Port_Content .port-child-wrp .port_cmn03 {
+        width: 100%;
+        margin: 1rem 0 0;
+    }
+    main .portfolio_wrapper .Port_Content .port-child-wrp .port_cmn03 ul li p {
+        font-size: 1rem;
+        padding: 1rem .5rem;
+    } 
+    main .Trade_Wrappper .Trade_Content_wrp{
+        align-items: inherit;
+    }
+    main .Trade_Wrappper .Trade_Content_wrp .trade_cmn05 p {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        padding: .5rem 0;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+    main footer .footer_content .Ft_cmn06 {
+        width: 48%;
+        margin: .5rem .4rem;
+        text-align: center;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote{
+      text-align: center;
+    }   
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote .inp_wrp{
+        justify-content: center!important;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote p {
+        padding: .7rem 1rem 2rem;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote .inp_wrp .label01 {
+        width: 100%;
+        margin: 0 0 0 5rem;
+    }
+    .Bit-content {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    main footer .footer_content{
+        justify-content: center;
+    }
+    .Admin_wrapper .Admin_table .Table_content {
+        width: 100%;
+        padding: 7rem 0 0;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .Admin_wrapper .Admin_table .Table_content .child_Table {
+        padding: 1rem;
+        background: #eee;
+        border-radius: 5px;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        table{
+            overflow-y: hidden;
+            overflow-x: scroll;
+        }
+    }
+    #Userdashboard_wrapper .User_main_Wrapper .User_content .child_user_cnt .User_unorder .Li-cmn03 {
+        width: 100%;
+    }
+    #Userdashboard_wrapper .User_main_Wrapper .User_content {
+        padding: 4rem 0 2rem;
+        width: 100%;
+    }
+    #Userdashboard_wrapper .User_main_Wrapper .User_content .child_user_cnt .User_unorder .Li-cmn03 .balance p strong {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 576px){
+    .user_options-unregistered, .user_options-registered {
+        width: 100%!important;
+    }
+    .Login_wrp .user_options-unregistered {
+        width: 50%;
+        padding: 2rem 15px 4rem;
+        text-align: center;
+        margin: 1rem 0 0;
+    }
+    .Login_wrp .user_options-registered {
+        padding: 24rem 15px 1rem !important;
+        text-align: center;
+        margin: 0 0 1rem;
+    }
+    .Login_wrp .user_options-text{
+        margin: 1rem 0 1rem;    
+    }
+    .Login_wrp .user_options-forms {
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        width: 80%;
+        transform: translate(54px, -13rem);
+    }
+    .Login_wrp .user_options-forms .forms_buttons-action{
+        padding: .7rem 1.4rem;
+        font-size: 15px;
+    }
+    .Login_wrp .user_registered-login, .Login_wrp .user_unregistered-signup {
+        padding: 0.8rem 1.2rem;
+        font-size: 13px;
+    }
+    .Login_wrp .user_options-forms{
+        box-shadow: 2px 0 7px #99999957;
+    }
+    @keyframes bounceRight{
+        0%,100%{
+            display: none;
+        }
+    }
+    @keyframes bounceLeft{
+        0%,100%{
+            display: none;
+        }
+    }
+    .Login_wrp::before{
+        display: none;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote h1 {
+        font-size: 1.7rem;
+        line-height: 1.5;
+    }
+    main .Banner_wrapper .svg-wrp {
+        height: 100px;
+        width: 100%;
+    }
+    main .Bit-Price_wrapper .Bit-content .child_cnt2 table thead th {
+        font-size: 1.2em;
+    }
+    main .Bit-Price_wrapper .Bit-content .child_cnt2 table tbody tr td .bt_txt img {
+        max-width: 22px;
+    }
+    main .Bit-Price_wrapper .Bit-content .child_cnt2 table tbody tr td i {
+        font-size: 1.5rem;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote .inp_wrp .submit{
+        transform: translate(-29px, 0px);
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote .inp_wrp .label01 {
+        margin: 0 0 0 2rem;
+    }
+    .main-bar {
+        right: 28px;
+    }
+    main .Graph_wrapper {
+        margin: 3rem 0 1rem;
+        padding: 1rem;
+    }
+    main .Graph_wrapper .Graph_content .G_cnt_commn {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    main .portfolio_wrapper .Port_Content .port_heading {
+        padding: 2rem .5rem 1rem;
+    }
+    main .portfolio_wrapper .Port_Content .port_heading h2 {
+        font-size: 1.4em;
+    }
+    main .portfolio_wrapper .Port_Content .port-child-wrp .port_cmn03 ul li p {
+        font-size: 1rem;
+        padding: .5rem;
+    }
+    main .platform_wrapper {
+        margin: 3rem 0 2rem;
+    }
+    main .platform_wrapper .platform-child-wrp ul .secure_cmn04 {
+        width: 100%;
+        padding: 0rem 0 2rem;
+        margin: .5rem .5rem;
+    }
+    main .Trade_Wrappper {
+        margin: 3rem 0 0rem;
+        padding: 2rem 1rem;
+    }
+    main .Trade_Wrappper .Trade_Content_wrp .trade_cmn05 h2 {
+        font-size: 1.8em;
+        padding: .5rem 0;
+    }
+    main .Trade_Wrappper .Trade_Content_wrp .trade_cmn05 p {
+        font-size: 1em;
+        padding: .5rem 0;
+    }
+    main .platform_wrapper .platform-child-wrp ul .secure_cmn04 figure img {
+        max-width: 32%;
+        padding: .6rem 0;
+    }
+    main footer {
+        margin: 0rem 0 0;
+        padding: 7rem 0 0;
+    }
+    main footer .Copy-right {
+        padding: 1.3rem 0;
+        margin: 1rem 0 0;
+    }
+    main .BT-top a {
+        padding: .9rem 1.1rem;
+    }
+    .main-bar.activefile {
+        top: 31px !important;
+    }
+    .Admin_wrapper .Admin_table .Table_content {
+        width: 100%;
+        padding: 4rem 0 0;
+    }
+    .Admin_wrapper .Admin_table .Table_content .child_Table {
+        padding: 1rem;
+        background: #eee;
+        border-radius: 5px;
+    }
+    .Admin_wrapper .Admin_table .Table_content .child_Table table tbody tr td i.fas.fa-pencil-alt {
+        margin: 0px 9px 0 1rem;
+    }
+    .Admin_wrapper .Admin_table .Table_content .child_Table table thead th {
+        padding: 1.2rem .5rem;
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width: 480px){
+    
+    //-----login----page-------//
+
+    .Login_wrp .user_options-unregistered {
+        padding: 1rem 15px 2rem;
+        margin: 0rem 0 0;
+    }
+    .Login_wrp .user_registered-title, .Login_wrp .user_unregistered-title {
+        margin-bottom: 9px;
+        font-size: 1.2rem;
+        line-height: 1em;
+    }
+    .Login_wrp .user_registered-title {
+        margin: 3rem 0 .9rem!important;
+    }
+    .Login_wrp .user_registered-login, .Login_wrp .user_unregistered-signup {
+        margin-top: 16px;
+    }    
+    .Login_wrp .user_options-forms {
+        transform: translate(23px, -14rem);
+        width: 90%;
+    }
+    .Login_wrp .user_options-registered {
+        padding: 26rem 15px 1rem !important;
+        margin: 0 0 1rem;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote h1 {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote .inp_wrp .label01 {
+        margin: 0 0 0 1rem;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote .inp_wrp .submit {
+        transform: translate(-15px, 0px);
+    }
+    main .Banner_wrapper .banner_content .Right_cnt01 figure img {
+        max-width: 100%;
+    }
+    main .portfolio_wrapper .Port_Content .port_heading h2 {
+        font-size: 1.2em;
+    }
+    main .portfolio_wrapper .Port_Content .port_heading p {
+        font-size: 1em;
+        padding: .8rem .3rem;
+    }
+    main .portfolio_wrapper .Port_Content .port_heading {
+        padding: 2rem .5rem 0rem;
+    }
+    main .Trade_Wrappper .Trade_Content_wrp .trade_cmn05 {
+        width: 100%;
+        margin: 0 0 1rem;
+    }
+    .sticky .main-bar {
+        top: 22px;
+    }
+    .main-bar.activefile {
+        top: 38px !important;
+    }
+    .main-bar {
+        top: 28px;
+    }
+    .myHeader{
+        margin: 1rem 0 0 ;
+        padding: 0 0 0;
+    }
+    main .Bit-Price_wrapper .Bit-content .child_cnt2 {
+        background: #ffffff;
+    }
+    main .portfolio_wrapper .Port_Content .port-child-wrp .port_cmn03 ul li {
+        padding: 1rem 0 .2rem;
+        text-align: center;
+    }
+    .sticky .myHeader{
+        margin: 0!important;
+    }
+    .myHeader ul li {
+        padding: .7rem 0;
+        border-bottom: 1px solid #eeeeee29;
+    }
+    .Admin_wrapper .Admin_table .Table_content {
+        padding: 3rem 0 0;
+    }
+    #Userdashboard_wrapper a.user1 {
+        padding: 0.7rem .9rem !important;
+    }
+    .Admin_wrapper .myHeader{
+        margin: .6rem 0 0 ;
+    }
+    //-----login---end--here---//
+}
+@media only screen and (max-width: 375px){
+    .Login_wrp .user_options-forms {
+        transform: translate(18px, -14rem);
+        width: 90%;
+    }
+    .Login_wrp .user_options-text a.close1 {
+        top: 17px;
+        left: 18px;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote h1 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    main .Banner_wrapper .banner_content .Left_cnt01 blockquote p{
+        font-size: 15px;
+    }
+    main .Bit-Price_wrapper .Bit-content .child_cnt2 table{
+     border-bottom: 3px solid #1f4e5f;
+    }
+    .child_cnt2 table thead th {
+        font-size: 1.1em;
+    }
+    main .Trade_Wrappper .Trade_Content_wrp .trade_cmn05 h2 {
+        font-size: 1.5em;
+        padding: .5rem 0;
+    }
+    main .Trade_Wrappper .Trade_Content_wrp .trade_cmn05 h2 {
+        font-size: 1.5em;
+        padding: .5rem 0 .2rem;
+    }
+    .Login_wrp .user_options-forms .forms_buttons-forgot {
+        margin: 0 .5rem 1rem;
+    }
+    .myHeader ul li {
+        padding: .5rem 0;
+        border-bottom: 1px solid #eeeeee29;
+    }
+    .Admin_wrapper .Admin_table .Table_content {
+        padding: 2rem 0 0;
+    }
+    #Userdashboard_wrapper a.user1 {
+        padding: 0.6rem .8rem !important;
+    }
+    .main-bar {
+        right: 20px;
+    }
+}
